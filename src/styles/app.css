@@ -1,0 +1,11 @@
+/* ./src/styles/app.css */
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: 'Mitr', sans-serif;
+}
+@tailwind utilities;
+
+/* adiciona a regra CSS para que o body herde a cor de fundo do container */
+
+
