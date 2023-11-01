@@ -1,4 +1,3 @@
-Claro, vou criar um resumo de um README para o seu sistema de esteira de desenvolvimento. Lembre-se de adaptar as informações conforme necessário para o seu projeto específico.
 
 # Sistema de Esteira de Desenvolvimento
 
