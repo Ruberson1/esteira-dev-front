@@ -1,16 +1,46 @@
-# Vue 3 + TypeScript + Vite
+Claro, vou criar um resumo de um README para o seu sistema de esteira de desenvolvimento. Lembre-se de adaptar as informações conforme necessário para o seu projeto específico.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Sistema de Esteira de Desenvolvimento
 
-## Recommended IDE Setup
+Este é um sistema de esteira de desenvolvimento que foi criado para auxiliar a equipe de desenvolvimento a acompanhar o progresso de suas tarefas, desde o cadastro até a implantação no ambiente de produção.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Tecnologias Utilizadas
 
-## Type Support For `.vue` Imports in TS
+O sistema foi desenvolvido utilizando as seguintes tecnologias:
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+- **Vue 3**: Um framework JavaScript para a construção de interfaces de usuário interativas e reativas.
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- **TypeScript**: Uma linguagem de programação que adiciona tipagem estática ao JavaScript, tornando o código mais seguro e legível.
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- **Vite**: Um construtor de aplicações JavaScript/TypeScript extremamente rápido que oferece desenvolvimento em tempo real.
+
+- **Tailwind CSS**: Uma biblioteca de estilos utilitários que permite criar rapidamente interfaces de usuário bonitas e responsivas.
+
+## Funcionalidades Principais
+
+O sistema oferece as seguintes funcionalidades:
+
+1. **Cadastro de Tarefas**: Os membros da equipe podem cadastrar novas tarefas no sistema, fornecendo informações relevantes, como descrição, prazo e responsável.
+
+2. **Acompanhamento de Tarefas**: Tanto o Tech Lead quanto os desenvolvedores podem acompanhar o andamento de suas respectivas tarefas. Isso inclui a visualização do status atual, comentários e anexos relacionados à tarefa.
+
+3. **Transição de Etapas**: O sistema permite que as tarefas se movam através de diferentes etapas da esteira de desenvolvimento, como "DEV", "HOMOLOGANDO" e "LIB. PROD". Isso ajuda a equipe a manter um controle claro do progresso.
+
+4. **Integração com Produção**: Quando uma tarefa está pronta para ser implantada em produção, a equipe pode iniciar o processo de integração. O sistema pode oferecer recursos de integração contínua ou ajudar a coordenar a entrega no ambiente de produção.
+
+## Como Iniciar
+
+Para iniciar o sistema em seu ambiente local, siga estas etapas:
+
+1. Clone este repositório.
+
+2. Instale as dependências usando `npm install` ou `yarn install`.
+
+3. Inicie o servidor de desenvolvimento com `npm run dev` ou `yarn dev`.
+
+4. Acesse o sistema no navegador em `http://localhost:3000` (ou outra porta, dependendo da configuração).
+
+## Contato
+
+Se você tiver alguma dúvida ou precisar de suporte, sinta-se à vontade para entrar em contato em [[Portifolio](https://ruberson-as-portifolio.netlify.app/)].
+
