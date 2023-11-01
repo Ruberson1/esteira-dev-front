@@ -15,6 +15,10 @@ O sistema foi desenvolvido utilizando as seguintes tecnologias:
 
 - **Tailwind CSS**: Uma biblioteca de estilos utilitários que permite criar rapidamente interfaces de usuário bonitas e responsivas.
 
+- **Axios**: Uma biblioteca JavaScript que facilita o envio de solicitações HTTP a servidores e o gerenciamento de respostas em aplicativos web e móveis.
+
+- **Pinia**: Uma biblioteca de gerenciamento de estado de código aberto projetada para aplicativos Vue.js, fornecendo uma maneira simples e eficaz de gerenciar o estado da aplicação.
+
 ## Funcionalidades Principais
 
 O sistema oferece as seguintes funcionalidades:
